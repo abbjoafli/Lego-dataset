@@ -6,7 +6,7 @@
 import os 
   
 # Function to rename multiple files 
-#Ändra från annotations till mappen du vill ändra namnen i.
+#Ändra från annotations till mappen du vill ändra namnen i.Från jpg till JPEG
 def main(): 
       
     for filename in os.listdir("annotations"):
@@ -15,9 +15,6 @@ def main():
             dst = arr[0]+ ".JPEG"
             src ='annotations/'+ filename 
             dst ='annotations/'+ dst 
-            
-            # rename() function will 
-            # rename all the files 
             os.rename(src, dst) 
   
 # Driver Code 
