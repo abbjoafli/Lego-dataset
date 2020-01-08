@@ -10,7 +10,7 @@
         "no_object_scale" : 	1.0
     },
     "pretrained" : {
-        "full":   				"/content/Yolo-digit-detector/raccoon/model.h5"
+        "full":   				"/content/Yolo-digit-detector/save-files/model.h5"
     },
     "train" : {
         "actual_epoch":         20,
@@ -22,7 +22,7 @@
         "valid_times":          2,
         "batch_size":           4,
         "learning_rate":        1e-4,
-        "saved_folder":   		"/content/Yolo-digit-detector/raccoon",
+        "saved_folder":   		"/content/Yolo-digit-detector//save-files",
         "first_trainable_layer": "",
         "jitter":				true,
         "is_only_detect" : 		false
